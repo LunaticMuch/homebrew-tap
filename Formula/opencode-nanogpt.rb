@@ -3,7 +3,7 @@ class OpencodeNanogpt < Formula
   homepage "https://github.com/LunaticMuch/opencode-nanogpt"
   license "MIT"
 
-  version "1.2.0"
+  version "1.3.0"
 
   livecheck do
     url :stable
@@ -12,19 +12,19 @@ class OpencodeNanogpt < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/LunaticMuch/opencode-nanogpt/releases/download/v1.2.0/opencode-nanogpt-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "408b6815df08f890e4d8925172025f609d57ce9f57d20b49cfb2b85445c5c8c0"
+      url "https://github.com/LunaticMuch/opencode-nanogpt/releases/download/v1.3.0/opencode-nanogpt-v#{version}-aarch64-apple-darwin.tar.gz"
+      sha256 "f87eb9989ed127ee15cdd0d8b5e545cc6d41f7442a133a75049a4523fd9defb7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/LunaticMuch/opencode-nanogpt/releases/download/v1.2.0/opencode-nanogpt-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d7896e008066d853100bfc2c0f6a3b9c5c0752bf82b89fa1663e782d9be8350e"
+      url "https://github.com/LunaticMuch/opencode-nanogpt/releases/download/v1.3.0/opencode-nanogpt-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "707f48c0df0fba24a098c24e9848acce4f898d3352e820284321b4df784faeca"
     end
     on_intel do
-      url "https://github.com/LunaticMuch/opencode-nanogpt/releases/download/v1.2.0/opencode-nanogpt-v#{version}-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "5f89cadadec3ca086304ccfb3f3e5f3f7b882071aef0ce9758f716a09fe7834e"
+      url "https://github.com/LunaticMuch/opencode-nanogpt/releases/download/v1.3.0/opencode-nanogpt-v#{version}-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "5e9c1e4b51b7364847b7c3cb2f70a837c1cfa7973e6afc26e9323f2f85a98771"
     end
   end
 
